@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './SignIn.css';
 
 class SignIn extends Component {
 constructor(props){
@@ -13,23 +14,23 @@ render() {
     return (
       <div>
        
-          <div>
-         <div>Sign In</div>
-           <input
+          <div id="signInBlock">
+         <div id="signInText">Sign In</div>
+           <input id="username"
              hintText="Enter your Username"
              floatingLabelText="Username"
              onChange = {(event,newValue) => this.setState({username:newValue})}
              />
            <br/>
          
-             <input
+             <input id="password"
                type="password"
                hintText="Enter your Password"
                floatingLabelText="Password"
                onChange = {(event,newValue) => this.setState({password:newValue})}
                />
              <br/>
-             <button>Submit</button>
+             <button id="submit">Submit</button>
             
          </div>
         

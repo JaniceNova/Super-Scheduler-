@@ -16,7 +16,7 @@ constructor(props){
     const width = this.refs.AboutUsBox.clientWidth;
     const height = this.refs.AboutUsBox.clientHeight;
     const oX = (e.nativeEvent.offsetX/width) * 100;
-    const oY = (e.nativeEvent.offsetY/width) * 100;
+    const oY = (e.nativeEvent.offsetY/height) * 100;
     console.log(oX, oY);
     this.setState({
         x: oX,

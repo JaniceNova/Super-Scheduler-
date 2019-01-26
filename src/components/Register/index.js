@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './register.css';
 
 class Register extends Component {
 constructor(props){
@@ -14,22 +15,8 @@ render() {
       <div>
        
           <div>
-         <div>Sign In</div>
-           <input
-             hintText="Enter your Username"
-             floatingLabelText="Username"
-             onChange = {(event,newValue) => this.setState({username:newValue})}
-             />
-           <br/>
-         
-             <input
-               type="password"
-               hintText="Enter your Password"
-               floatingLabelText="Password"
-               onChange = {(event,newValue) => this.setState({password:newValue})}
-               />
-             <br/>
-             <button>Submit</button>
+        
+             <button id="registerButton">Register</button>
             
          </div>
         

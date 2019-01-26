@@ -1,0 +1,47 @@
+body {
+    margin:0px;
+   
+}
+
+#signInBlock{
+    font-size: 3.8vh;
+
+    font-weight: 900;
+    padding-left:4vw;
+    padding-right:4vw;
+    margin-top:9vh;
+    line-height: 1.1;
+    font-family: Courier, monospace;
+}
+
+
+#signInText {
+    font-size: 5.0vh;
+    margin-bottom:1vh;
+    margin-left:6vw;
+    
+}
+
+#username{
+    font-size: 3.8vh;
+    border-radius: 20px;
+    margin-bottom:1vh;
+    padding-left:1vw;
+}
+
+#password {
+    font-size: 3.8vh;
+    border-radius: 20px;
+    margin-bottom:1vh;
+    padding-left:1vw;
+}
+
+#submit{
+    font-family: Courier, monospace;
+    font-size: 3.8vh;
+    border-radius: 20px;
+    margin-bottom:1vh;
+    font-weight: 900;
+    margin-left:7vw;
+    
+}
