@@ -4,12 +4,12 @@ body {
 #Banner {
     background-color: green;
     width: 100vw;
-    height: 15vw;
+    height: 9vw;
    
 }
 #words {
-    padding-top:2vh;
-    font-size: 9vw;
+    padding-top:0vh;
+    font-size: 7vw;
     font-weight: 600;
     margin: 0 auto;
     font-family: Courier, monospace;
@@ -20,7 +20,7 @@ body {
 
 color: orange;
 float:left;
-padding-left:12%;
+padding-left:19%;
 padding-right:15px;
 
 
