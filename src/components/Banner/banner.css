@@ -12,6 +12,7 @@ body {
     font-size: 9vw;
     font-weight: 600;
     margin: 0 auto;
+    font-family: Courier, monospace;
   
  
 }
@@ -19,7 +20,7 @@ body {
 
 color: orange;
 float:left;
-padding-left:22%;
+padding-left:12%;
 padding-right:15px;
 
 
