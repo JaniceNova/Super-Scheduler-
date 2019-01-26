@@ -1,0 +1,33 @@
+body {
+    margin:0px;
+}
+#Banner {
+    background-color: green;
+    width: 100vw;
+    height: 15vw;
+   
+}
+#words {
+    padding-top:2vh;
+    font-size: 9vw;
+    font-weight: 600;
+    margin: 0 auto;
+  
+ 
+}
+#orangeWord {
+
+color: orange;
+float:left;
+padding-left:22%;
+padding-right:15px;
+
+
+}
+#blueWord {
+
+color: blue;
+float:left;
+
+}
+
