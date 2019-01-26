@@ -1,16 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './SignInRegisterWrapper.css';
 
-class SignInRegisterWrapper extends Component {
-  render() {
+function SignInRegisterWrapper(props) {
+ 
     return (
       <div id="contentBox">
-      
+ {props.children}
       
       </div>
     );
-  }
+ 
 }
 
 export default SignInRegisterWrapper;
+
+

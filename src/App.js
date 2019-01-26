@@ -14,7 +14,7 @@ class App extends Component {
      <Banner />
      <AboutUs />
      <SignInRegisterWrapper>
-       
+       <div>hi</div>
      </SignInRegisterWrapper>
      </div>
     );
