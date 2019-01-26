@@ -34,6 +34,7 @@ constructor(props){
       <div className="AboutUsBox" onMouseMove={this._onMouseMove} ref="AboutUsBox" style={maskStyle}>
         <div className="AboutUsHeader">Collaborative calendar parents and children fill out together.
         </div>
+        <br />
        <div className="aboutSubHeader">Parents can:</div>
         <ul>
             <li className="aboutBullets">input daily task for children</li>
@@ -53,6 +54,7 @@ constructor(props){
 
       <div className="AboutUsBox cloneWrapper" onMouseMove={this._onMouseMove} ref="AboutUsBox" style={maskStyle}>
         <div id="AboutUsHeader">Collaborative calendar parents and children fill out together.</div>
+        <br />
        <div className="aboutSubHeader">Parents can:</div>
         <ul>
             <li className="aboutBullets">input daily task for children</li>
