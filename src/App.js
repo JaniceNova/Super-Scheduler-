@@ -4,6 +4,8 @@ import './App.css';
 import Banner from './components/Banner';
 import AboutUs from './components/AboutUs';
 import SignInRegisterWrapper from './components/SignInRegisterWrapper';
+import SignIn from './components/SignIn';
+import Register from './components/Register';
   
 
 
@@ -14,7 +16,8 @@ class App extends Component {
      <Banner />
      <AboutUs />
      <SignInRegisterWrapper>
-       <div>hi</div>
+       <SignIn />
+       <Register />
      </SignInRegisterWrapper>
      </div>
     );
