@@ -1,0 +1,18 @@
+body {
+    margin:0px;
+   
+}
+#contentBox{
+    background-color: lightblue;
+    width: 30vw;
+    height: 75vh;
+    border-radius: 20px;
+    padding-top: 5vh;
+    padding-left:7vh;
+    padding-right:7vh;
+    margin-left:6vw;
+    margin-top:1vw;
+    border: solid white 7px;
+    float:left;
+    
+}

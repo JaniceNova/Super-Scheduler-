@@ -2,9 +2,11 @@ body {
     margin:0px;
 }
 #Banner {
-    background-color: green;
+    background-color: white;
     width: 100vw;
     height: 9vw;
+    border-bottom: solid 1vh rgb(113, 113, 219);
+    border-top: solid .5vh rgb(255, 193, 78);
    
 }
 #words {
@@ -18,7 +20,7 @@ body {
 }
 #orangeWord {
 
-color: orange;
+color: rgb(255, 193, 78);
 float:left;
 padding-left:19%;
 padding-right:15px;
@@ -27,7 +29,7 @@ padding-right:15px;
 }
 #blueWord {
 
-color: blue;
+color: rgb(113, 113, 219);
 float:left;
 
 }
