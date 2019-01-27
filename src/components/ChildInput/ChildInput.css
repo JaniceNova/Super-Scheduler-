@@ -1,0 +1,25 @@
+.informationInupt {
+    font-size: 2.3vw;
+    border-radius: 20px;
+    margin-bottom:1vh;
+    padding-left:4vh;
+    font-family: Courier, monospace;
+    color:rgb(231, 177, 236);
+    font-weight: 900;
+}
+.inputLabel{
+    font-size: 2.6vw;
+    margin-bottom:1vh;
+    padding-left:4vh;
+    font-family: Courier, monospace;
+    font-weight: 900;
+    margin-top:1vh;
+    color:rgb(27, 27, 27);
+}
+.passwordRules{
+    font-size: .8vw;
+    font-family: Courier, monospace;
+    font-weight: 900;
+    text-align: center;
+    color:rgb(65, 62, 62);
+}
