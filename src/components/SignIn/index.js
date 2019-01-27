@@ -6,17 +6,44 @@ constructor(props){
   super(props);
   this.state={
   username:'',
-  password:''
+  password:'',
+  x: 0,
+  y: 0
   }
- 
  }
+
+
+
+ _onMouseMove = (e) => {
+  const width = this.refs.signInText.clientWidth;
+  const height = this.refs.signInText.clientHeight;
+  const oX = (e.nativeEvent.offsetX/width) * 100;
+  const oY = (e.nativeEvent.offsetY/height) * 100;
+  console.log(oX, oY);
+  this.setState({
+      x: oX,
+      y: oY
+  })
+}
+
+
+
+
 render() {
+
+  const x = this.state.x;
+  const y = this.state.y;
+  const maskStyle = { 
+    '--maskX' : x,
+    '--maskY' : y
+  }
     return (
       <div>
        
-          <div id="signInBlock">
-         <div id="signInText">Sign In</div>
-           <input id="username"
+          <div className="signInBlock">
+         <div className="signInText" onMouseMove={this._onMouseMove} ref="signInText" style={maskStyle}>Sign In</div>
+         <div className="signInText signInClone" onMouseMove={this._onMouseMove} ref="signInText" style={maskStyle}>Sign In</div>
+           <input id="username" 
            placeholder="Username"
              hintText="Enter your Username"
              floatingLabelText="Username"

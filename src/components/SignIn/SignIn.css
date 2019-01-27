@@ -3,25 +3,43 @@ body {
    
 }
 
-#signInBlock{
+.signInBlock{
     font-size: 3.8vh;
-
+    position: relative;
     font-weight: 900;
     padding-left:4vw;
     padding-right:2vw;
     margin-top:2.5vh;
     line-height: 1.1;
     font-family: Courier, monospace;
+    --maskX: 0;
+    --maskY: 50;
 }
+.signInBlock.signInText {
+    
+    text-align: center;
+    }
 
 
-#signInText {
+.signInText {
     font-size: 9.0vh;
+    top:27.3vh;
     margin-bottom:1vh;
     margin-left:0vw;
     margin-left:1vw;
     color:rgb(113, 113, 219);
     
+}
+
+.signInClone {
+    position: absolute;
+    top:0;
+    bottom:0;
+   
+  
+    color:  rgb(246, 246, 246);
+    /* clip-path: polygon(0 0, 100 0, 50% calc(var(--maskY) * 1%), 100% calc(var(--maskY) * 1%)); */
+    clip-path: inset(0% 0% 0% calc(var(--maskX) * 1%));
 }
 
 #username{

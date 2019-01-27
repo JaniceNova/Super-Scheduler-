@@ -24,12 +24,13 @@ body {
     margin-bottom:2vh;
     text-align: center;
     }
+    
 .AboutUsBox {
     background-color:  rgb(113, 113, 219);
     width: 30vw;
     height: 70vh;
    
-    border-radius: 20px;
+    border-radius: 20px; 
     font-family: Courier, monospace;
     padding-top: 5vh;
     padding-left:7vh;
