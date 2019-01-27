@@ -17,6 +17,7 @@ render() {
           <div id="signInBlock">
          <div id="signInText">Sign In</div>
            <input id="username"
+           placeholder="Username"
              hintText="Enter your Username"
              floatingLabelText="Username"
              onChange = {(event,newValue) => this.setState({username:newValue})}
@@ -25,6 +26,7 @@ render() {
          
              <input id="password"
                type="password"
+               placeholder="Password"
                hintText="Enter your Password"
                floatingLabelText="Password"
                onChange = {(event,newValue) => this.setState({password:newValue})}

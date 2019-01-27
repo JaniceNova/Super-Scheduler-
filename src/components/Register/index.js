@@ -16,7 +16,7 @@ render() {
        
           <div>
         
-             <div id="registerButton">Register</div>
+             <div id="registerButton"><div id="registerText">Register</div></div>
             
          </div>
         

@@ -1,3 +1,9 @@
+body {
+    margin:0px;
+   
+}
+
+
 /* 
 #registerButton{
     font-family: Courier, monospace;
@@ -11,37 +17,22 @@
     
 } */
 
-#contentBox{
-    background-color: lightblue;
-    width: 30vw;
-    height: 70vh;
-    border-radius: 20px;
-    padding-top: 5vh;
-    padding-left:7vh;
-    padding-right:7vh;
-    margin-left:0vw;
-    margin-top:1vw;
-    border: solid white 7px;
-    float:left;
-    margin-bottom:3vh;
-    
-}
 #registerButton {
     font-family: Courier, monospace;
 	background-color: #8bbae0;
-    padding:20px;
-    width: 30vw;
-    height: 10vh;
+    padding:0;
+    width: 38vw;
+    height: 23vh;
 	position:relative;
 	font-family: 'Open Sans', sans-serif;
-	font-size:3.8vh;
+	font-size:7.8vh;
 	text-decoration:none;
 	color:#fff;
 	background-image: linear-gradient(bottom, rgb(100,170,30) 0%, rgb(129,212,51) 100%);
 	box-shadow: inset 0px 1px 0px #b2f17f, 0px 6px 0px #3d6f0d;
-    border-radius: 900px;
+    border-radius: 19px;
     margin-bottom: 50px;
-    margin-left:0vw;
+    margin-left:-4vw;
     margin-top:10vh;
     font-weight: 900;
 }
@@ -79,4 +70,12 @@
 
 #registerButton:active::before {
 	top:-2px;
+}
+
+#registerText{
+
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top:7vh;
+
 }
