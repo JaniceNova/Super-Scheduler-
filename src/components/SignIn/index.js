@@ -30,7 +30,7 @@ render() {
                onChange = {(event,newValue) => this.setState({password:newValue})}
                />
              <br/>
-             <button id="submit">Submit</button>
+             <div id="submit">Submit</div>
             
          </div>
         
