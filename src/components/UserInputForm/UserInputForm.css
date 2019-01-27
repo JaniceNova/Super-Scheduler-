@@ -1,0 +1,32 @@
+.leftHalf{
+    background-color:  rgb(145, 197, 131);
+    width: 30vw;
+    height: 70vh;
+    border-radius: 20px;
+    padding-top: 5vh;
+    padding-left:7vh;
+    padding-right:7vh;
+    margin-left:0vw;
+    margin-top:1vw;
+    border: solid rgb(155, 150, 150) 7px;
+    float:left;
+    margin-bottom:3vh;
+    margin-left:10vw;
+
+}
+
+
+.rightHalf{
+    background-color:  rgb(231, 177, 236);
+    width: 30vw;
+    height: 70vh;
+    border-radius: 20px;
+    padding-top: 5vh;
+    padding-left:7vh;
+    padding-right:7vh;
+    margin-left:0vw;
+    margin-top:1vw;
+    border: solid rgb(155, 150, 150) 7px;
+    float:left;
+    margin-bottom:3vh;
+}
