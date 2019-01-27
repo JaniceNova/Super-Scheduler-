@@ -10,11 +10,17 @@ import Register from '../../components/Register';
 
 
 class Home extends Component {
-
+  componentDidMount() {
+    document.body.classList.add('bg-one');
+  }
+  
+  componentWillUnmount() {
+      document.body.classList.remove('bg-one');
+  }
     
   render() {
     return (
-      <div className="background">
+      <div className="background"   >
      <Banner />
      <AboutUs />
      <SignInRegisterWrapper>

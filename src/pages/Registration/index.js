@@ -9,9 +9,17 @@ import './Registration.css';
   
 
 class Registration extends Component {
+
+  componentDidMount() {
+    document.body.classList.add('registrationBackground');
+  }
+  
+  componentWillUnmount() {
+      document.body.classList.remove('registrationBackground');
+  }
   render() {
     return (
-      <div>
+      <div   >
   <ParentBanner />
   <UserInputFormLeft>
      <ChildInput />
