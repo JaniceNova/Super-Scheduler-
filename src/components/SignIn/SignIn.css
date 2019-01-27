@@ -8,32 +8,38 @@ body {
 
     font-weight: 900;
     padding-left:4vw;
-    padding-right:4vw;
-    margin-top:9vh;
+    padding-right:2vw;
+    margin-top:2.5vh;
     line-height: 1.1;
     font-family: Courier, monospace;
 }
 
 
 #signInText {
-    font-size: 5.0vh;
+    font-size: 9.0vh;
     margin-bottom:1vh;
-    margin-left:6vw;
+    margin-left:0vw;
+    margin-left:1vw;
+    color:rgb(113, 113, 219);
     
 }
 
 #username{
-    font-size: 3.8vh;
+    font-size: 4.8vh;
     border-radius: 20px;
     margin-bottom:1vh;
     padding-left:1vw;
+    margin-left:-2vw;
+    color:rgb(113, 113, 219);
 }
 
 #password {
-    font-size: 3.8vh;
+    font-size: 4.8vh;
     border-radius: 20px;
     margin-bottom:1vh;
     padding-left:1vw;
+    margin-left:-2vw;
+    color:rgb(113, 113, 219);
 }
 
 /* #submit{
@@ -57,24 +63,25 @@ body {
 	font-size:3.8vh;
 	text-decoration:none;
 	color:#fff;
-	background-image: linear-gradient(bottom, rgb(100,170,30) 0%, rgb(129,212,51) 100%);
-	box-shadow: inset 0px 1px 0px #b2f17f, 0px 6px 0px #3d6f0d;
+	background-image: linear-gradient(bottom, rgb(113, 113, 219) 0%, rgb(124, 124, 236) 100%);
+	box-shadow: inset 0px 1px 0px rgb(134, 134, 255), 0px 6px 0px rgb(61, 61, 121);
     border-radius: 900px;
     margin-bottom: 50px;
-    margin-left:2vw;
+    margin-left:-1vw;
+    padding-left:9vw;
 }
 
 #submit:active {
 	top:7px;
-	background-image: linear-gradient(bottom, rgb(100,170,30) 100%, rgb(129,212,51) 0%);
-	box-shadow: inset 0px 1px 0px #b2f17f, inset 0px -1px 0px #3d6f0d;
-	color: #156785;
+	background-image: linear-gradient(bottom,  rgb(113, 113, 219) 100%, rgb(124, 124, 236) 0%);
+	box-shadow: inset 0px 1px 0px rgb(124, 124, 236), inset 0px -1px 0px rgb(113, 113, 219);
+	color: rgb(255, 193, 78);
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
-	background:  #75c700;
+	background: rgb(113, 113, 219) ;
 }
 
 #submit::before {
-	background-color:#072239;
+	background-color:rgb(255, 193, 78);
 	content:"";
 	display:block;
 	position:absolute;

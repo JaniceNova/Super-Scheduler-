@@ -25,7 +25,7 @@ body {
     text-align: center;
     }
 .AboutUsBox {
-    background-color: lightblue;
+    background-color:  rgb(113, 113, 219);
     width: 30vw;
     height: 70vh;
    
@@ -35,13 +35,13 @@ body {
     padding-left:7vh;
     padding-right:7vh;
   
-    color:rgb(175, 64, 175);
+    color:  rgb(255, 193, 78);
 }
 .cloneWrapper {
     position: absolute;
     top: 0;
     left: 0;
-    color:rgb(53, 16, 53);
+    color:  rgb(246, 246, 246);
     /* clip-path: polygon(0 0, 100 0, 50% calc(var(--maskY) * 1%), 100% calc(var(--maskY) * 1%)); */
     clip-path: inset(0% 0% 0% calc(var(--maskX) * 1%));
 }
