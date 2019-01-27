@@ -22,7 +22,7 @@ render() {
           <div>
         
     
-        <Link to="/Registration">
+        <Link to="/Registration" className="linkText">
             <div id="registerButton"><div id="registerText">Register</div></div>
          </Link>
             

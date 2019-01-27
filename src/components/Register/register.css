@@ -76,6 +76,11 @@ body {
 
     padding-left: 10vw;
     padding-right: 10vw;
-    padding-top:7vh;
+	padding-top:7vh;
+	
 
 }
+
+.linkText{ 
+	 text-decoration: none;
+	}
