@@ -19,7 +19,7 @@ body {
 
 #registerButton {
     font-family: Courier, monospace;
-	background-color: #8bbae0;
+	background-color: rgb(113, 113, 219);
     padding:0;
     width: 38vw;
     height: 23vh;
@@ -28,7 +28,7 @@ body {
 	font-size:7.8vh;
 	text-decoration:none;
 	color:#fff;
-	background-image: linear-gradient(bottom, rgb(113, 113, 219) 0%, rgb(124, 124, 236)  100%);
+	background-image: linear-gradient(bottom, rgb(67, 67, 139) 0%, rgb(124, 124, 236)  100%);
 	box-shadow: inset 0px 1px 0px rgb(134, 134, 255), 0px 6px 0px rgb(61, 61, 121);
     border-radius: 19px;
     margin-bottom: 50px;

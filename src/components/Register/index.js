@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import './register.css';
+import {
+
+  Link,
+
+} from "react-router-dom";
 
 class Register extends Component {
 constructor(props){
@@ -16,7 +21,10 @@ render() {
        
           <div>
         
-             <div id="registerButton"><div id="registerText">Register</div></div>
+    
+        <Link to="/Registration">
+            <div id="registerButton"><div id="registerText">Register</div></div>
+         </Link>
             
          </div>
         
@@ -24,7 +32,5 @@ render() {
     );
   }
 }
-const style = {
- margin: 15,
-};
+
 export default Register;
