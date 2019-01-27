@@ -10,9 +10,11 @@ import Register from '../../components/Register';
 
 
 class Home extends Component {
+
+    
   render() {
     return (
-      <div>
+      <div className="background">
      <Banner />
      <AboutUs />
      <SignInRegisterWrapper>

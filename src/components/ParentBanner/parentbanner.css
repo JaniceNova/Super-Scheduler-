@@ -1,0 +1,36 @@
+body {
+    margin:0px;
+}
+#ParentBanner {
+    background-color: rgb(155, 150, 150);
+    width: 100vw;
+    height: 9vw;
+    border-bottom: solid 1vh rgb(145, 197, 131);
+    border-top: solid .5vh rgb(231, 177, 236);
+   
+}
+#parentwords {
+    padding-top:0vh;
+    font-size: 7vw;
+    font-weight: 600;
+    margin: 0 auto;
+    font-family: Courier, monospace;
+  
+ 
+}
+#pinkWord {
+
+color: rgb(231, 177, 236);
+float:left;
+padding-left:19%;
+padding-right:15px;
+
+
+}
+#greenWord {
+
+color: rgb(145, 197, 131);
+float:left;
+
+}
+
